@@ -23,13 +23,15 @@ Welcome to **Library Management Function Test**! This application is built using
 
 - **Options**:
   - Only authenticated users can manage this system.
+  - Multiple books can be selected when borrowing.
+  - Advanced confirmations for critical actions.
+  - Users can search books with categorizing options.
+  - When book borrowing if the book count is 0, then display a message the selected book is out of stock.
   - Real-time finding and categorizing data.
   - responsive UI for better user experience on all devices.
   - Client-side and server-side validation ensure data integrity and security.
   - Error handling for smooth user experience and debugging.
-  - Multiple books can be selected when borrowing.
-  - Advanced confirmations for critical actions.
-  - Users can search books with categorizing options.
+
 
 ## Technology Stack
 
