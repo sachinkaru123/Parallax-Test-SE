@@ -21,71 +21,67 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, and powerful, and provides tools required for large, robust applications.
 
- <h1>Your Laravel Application Name</h1>
+ # Your Laravel Application Name
 
-    <p>Welcome to <strong>Your Laravel Application Name</strong>! This application is built using the Laravel framework and provides the following features:</p>
+Welcome to **Library Management Function Test**! This application is built using the Laravel framework and provides the following features:
 
-    <h2>Features</h2>
+## Features
 
-    <ul>
-        <li><strong>Seeders</strong>:
-            <ul>
-                <li>Bookcategoryseeder</li>
-                <li>BooksSeeder</li>
-                <li>MemberSeeder</li>
-                <li>UsersSeeder</li>
-            </ul>
-        </li>
+- **Seeders**:
+  - Bookcategoryseeder
+  - BooksSeeder
+  - MemberSeeder
+  - UsersSeeder
 
-        <li><strong>Options</strong>:
-            <ul>
-                <li>Only authenticated users can manage this system. There are 8 predefined authenticated users.</li>
-                <li>Real-time finding and categorizing data.</li>
-                <li>Mobile responsive UI for better user experience on all devices.</li>
-                <li>Client-side and server-side validation ensure data integrity and security.</li>
-                <li>Error handling for smooth user experience and debugging.</li>
-                <li>Multiple books can be selected when borrowing.</li>
-                <li>Advanced confirmations for critical actions.</li>
-                <li>Users can search books with categorizing options.</li>
-            </ul>
-        </li>
-    </ul>
+- **Options**:
+  - Only authenticated users can manage this system. There are 8 predefined authenticated users.
+  - Real-time finding and categorizing data.
+  - Mobile responsive UI for better user experience on all devices.
+  - Client-side and server-side validation ensure data integrity and security.
+  - Error handling for smooth user experience and debugging.
+  - Multiple books can be selected when borrowing.
+  - Advanced confirmations for critical actions.
+  - Users can search books with categorizing options.
 
-    <h2>Technology Stack</h2>
+## Technology Stack
 
-    <h3>Frontend</h3>
-    <ul>
-        <li>jQuery</li>
-        <li>Ajax</li>
-        <li>JSON</li>
-        <li>JavaScript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-    </ul>
+### Frontend
+- jQuery
+- Ajax
+- JSON
+- JavaScript
+- HTML
+- CSS
 
-    <h3>Libraries</h3>
-    <ul>
-        <li>Bootstrap</li>
-        <li>jQuery UI</li>
-        <li>Toastr</li>
-    </ul>
+### Libraries
+- Bootstrap
+- jQuery UI
+- Toastr
 
-    <h2>Getting Started</h2>
+### Backend
+- Laravel UI (bootstrap)
+- Carbone
 
-    <p>To get started with <strong>Your Laravel Application Name</strong>, follow these steps:</p>
-    <ol>
-        <li>Clone this repository to your local machine.</li>
-        <li>Run <code>composer install</code> to install PHP dependencies.</li>
-        <li>Run <code>npm install</code> to install JavaScript dependencies.</li>
-        <li>Set up your database configuration in the <code>.env</code> file.</li>
-        <li>Run <code>php artisan migrate</code> to migrate the database tables.</li>
-        <li>Run <code>php artisan db:seed</code> to seed the database with initial data.</li>
-    </ol>
+## Getting Started
 
-    <h2>Contributing</h2>
+To get started with **Your Laravel Application Name**, follow these steps:
 
-    <p>Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request.</p>
+1. Clone this repository to your local machine.
+2. Run `composer install` to install PHP dependencies.
+3. Run `npm install` to install JavaScript dependencies.
+4. Set up your database configuration in the `.env` file.
+5. Run `php artisan migrate` to migrate the database tables.
+6. Run `php artisan db:seed` to seed the database with initial data.
 
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+Thank You!!!
 
 
 
