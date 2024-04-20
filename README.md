@@ -22,9 +22,9 @@ Welcome to **Library Management Function Test**! This application is built using
   - UsersSeeder
 
 - **Options**:
-  - Only authenticated users can manage this system. There are 8 predefined authenticated users.
+  - Only authenticated users can manage this system.
   - Real-time finding and categorizing data.
-  - Mobile responsive UI for better user experience on all devices.
+  - responsive UI for better user experience on all devices.
   - Client-side and server-side validation ensure data integrity and security.
   - Error handling for smooth user experience and debugging.
   - Multiple books can be selected when borrowing.
