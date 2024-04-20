@@ -11,10 +11,16 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('book_cate', function (Blueprint $table) {
+        Schema::create('books', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('title');
+            $table->string('author');
+            $table->decimal('price');
+            $table->integer('stock');
             $table->timestamps();
+
+            $table->unsignedBigInteger('book_category_id');
+            $table->foreign('book_category_id')->references('id')->on('book_cate');
         });
     }
 
@@ -23,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('book_cate');
+        Schema::dropIfExists('books');
     }
 };
