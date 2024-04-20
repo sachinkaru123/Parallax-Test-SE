@@ -16,4 +16,10 @@ class BorrowReturnBook extends Model
     public function book() {
         return $this->belongsTo(Book::class, 'book_id');
     }
+
+    protected $fillable = [
+        'member_id',
+        'book_id ',
+        'borrow_date',
+    ];
 }
